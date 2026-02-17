@@ -1,0 +1,3 @@
+- name: Catalogue configuration
+  ansible.builtin.debug:
+    msg: "this is from catalogue"
