@@ -1,10 +1,10 @@
- - name: Create system user 
-   ansible.builtin.user:
-    name: roboshop
-    system: true
-    home: /app
-    shell: /sbin/nologin
-    comment: "Roboshop system user"
+ -  name: Create system user 
+    ansible.builtin.user:
+      name: roboshop
+      system: true
+      home: /app
+      shell: /sbin/nologin
+      comment: "Roboshop system user"
 
  - name: Create app directory
    ansible.builtin.file:
@@ -18,6 +18,6 @@
 
  - name: unarchive {{ component }}
    ansible.builtin.unarchive:
-      src: /tmp/{{ component }}.zip
-      dest: /app
-      remote_src: yes
+    src: /tmp/{{ component }}.zip
+    dest: /app
+    remote_src: yes
