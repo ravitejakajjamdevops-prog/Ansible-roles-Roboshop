@@ -8,7 +8,7 @@
 - name: NodeJs setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: NodeJs-setup.yaml
+    tasks_from: nodejs-setup.yaml
 
 - name: systemd setup
   ansible.builtin.import_role:
