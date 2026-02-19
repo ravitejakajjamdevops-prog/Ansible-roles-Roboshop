@@ -1,4 +1,5 @@
-- name: appsetup 
-  ansible.builtin.import_roles:
-    name: common
-    tasks_from: app-setup.yaml
+
+  - name: appsetup 
+    ansible.builtin.import_role:
+      name: common
+      tasks_from: app-setup.yaml
