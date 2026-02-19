@@ -1,3 +1,7 @@
-- name: Catalogue configuration
+- name: Print id output   
+  ansible.builtin.command: id roboshop
+  register: user_output
+
+- name: printuser output
   ansible.builtin.debug:
-    msg: "this is from catalogue"
+    msg: "{{ user_output }}"
