@@ -1,3 +1,5 @@
 plugin: amazon.aws_ec2.aws_ec2
 regions: 
   - us-east-1c
+hostnames: 
+  - private-ip-address
