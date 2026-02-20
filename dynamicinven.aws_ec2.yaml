@@ -6,3 +6,7 @@ hostnames:
 filters:
   instance-state-name: running
   tag:Name: Seconf
+
+keyed_groups:
+- prefix: ""
+  key: tags.Name
