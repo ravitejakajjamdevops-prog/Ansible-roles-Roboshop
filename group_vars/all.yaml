@@ -10,3 +10,4 @@ MYSQL_HOST: mysql-dev.kajjam.online
 SHIPPING_HOST: shipping-dev.kajjam.online
 RABBITMQ_HOST: rabbitmq-dev.kajjam.online
 PAYMENT_HOST: payment-dev.kajjam.online
+os: redhat
