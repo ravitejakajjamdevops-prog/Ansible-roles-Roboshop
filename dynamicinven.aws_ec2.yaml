@@ -5,4 +5,4 @@ hostnames:
   - private-ip-address
 filters:
   instance-state-running: running
-  tag:Hostname: ansibleRole
+  tag:Name: ansibleRole
