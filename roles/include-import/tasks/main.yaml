@@ -1,0 +1,3 @@
+- name: This is for include and import
+  ansible.builtin.debug:
+    msg: "Hello include"
