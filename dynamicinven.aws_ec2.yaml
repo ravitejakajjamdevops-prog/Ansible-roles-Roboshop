@@ -3,3 +3,6 @@ regions:
   - us-east-1
 hostnames: 
   - private-ip-address
+fileters:
+  instance-state-running: running
+  tag:Hostname: ansibleRole
